@@ -1,0 +1,43 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  height: 300px;
+}
+
+.portrait {
+  height: 150px;
+}
+
+.aboutBanner {
+  height: 300px;
+}
+
+.teamInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.dataDisplay {
+  width: 500px;
+  margin: auto;
+}
+
+.staffMember {
+  margin: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */

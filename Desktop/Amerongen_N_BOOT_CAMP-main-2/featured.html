@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Squeezed Lime Designs</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="reset/css" href="css/reset.css">
+  <!-- FONT LINKS HERE
+    <link href="" rel="stylesheet"  -->
+</head>
+<body>
+<div class="siteContainer">
+  <h1 class="hidden">Squeezed Lime Featured Page</h1>
+  <header class="header">
+    <h2 class="hidden">Header</h2>
+  <img class="logo" src="images/squeezed-lime-logo.svg" alt="Squeezed Lime Logo">
+  <nav class="mainNav"> 
+    <h2 class="hidden">Nav</h2>
+    <!-- For mobile navigation
+    <div class="mobileNav"
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="featured.html">Featured Work</a></li>
+    </ul> 
+    -->
+    <div class="desktopNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="#">Featured Work</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+<figure id="featuredContainer">
+    <h2 class="hidden">Promotional Video</h2>
+    <h2 class="featuredHeadline">Featured Work - Cartoon Network TV Bumper</h2>
+    
+    <video id="featuredVideo" src="images/Cartoon Network Bumper.mp4" controls width="800px" poster="images/CN-poster.png"></video>
+    <ul id="vidControls" class="controls">
+        <li><button id="playpause" type="button">Play/Pause</button></li>
+        <li><button id="stop" type="button">Stop</button></li>
+        <li class="progress">
+           <progress id="progress" value="0" min="0">
+              <span id="progress-bar"></span>
+           </progress>
+        </li>
+        <li><button id="mute" type="button">Mute/Unmute</button></li>
+        <li><button id="volinc" type="button">Vol+</button></li>
+        <li><button id="voldec" type="button">Vol-</button></li>
+        <li><button id="fs" type="button">Fullscreen</button></li>
+     </ul>
+ </figure>   
+</section>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
